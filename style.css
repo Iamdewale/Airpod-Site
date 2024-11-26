@@ -45,14 +45,18 @@ header .logo{
 header nav a{
     margin-left: 30px;
     text-decoration: none;
-    color: #555;
+    color: #790000;
     font-weight: 500;
+    font-size: 0.8em;
+    &:hover{
+        color: brown;
+    }
 }
 
 /* carousel */
 .carousel{
     position: relative;
-    height: 800px;
+    height: 600px;
     overflow: hidden;
     margin-top: -50px;
 }
