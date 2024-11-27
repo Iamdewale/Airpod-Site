@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color: #F4F4F4;
     font-family: Poppins;
+
 }
 :root{
     --item1-transform: translateX(-100%) translateY(-5%) scale(1.5);
@@ -43,20 +44,22 @@ header .logo{
     font-weight: bold;
 }
 header nav a{
-    margin-left: 30px;
+    margin-left: 20px;
     text-decoration: none;
     color: #790000;
     font-weight: 500;
     font-size: 0.8em;
-    &:hover{
-        color: brown;
-    }
+    cursor: pointer;
+}
+header nav a:hover{
+    color: #FF0000;
+    cursor: pointer;
 }
 
 /* carousel */
 .carousel{
     position: relative;
-    height: 600px;
+    height: 550px;
     overflow: hidden;
     margin-top: -50px;
 }
@@ -299,7 +302,7 @@ header nav a{
     background-color: transparent;
     border: 1px solid #5555;
     margin-left: 5px;
-    padding: 5px 10px;
+    padding: 3px 3px;
     letter-spacing: 2px;
     font-weight: 500;
 }
@@ -335,8 +338,8 @@ header nav a{
 }
 #prev,
 #next{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     font-family: monospace;
     border: 1px solid #5555;
