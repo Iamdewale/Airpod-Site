@@ -36,6 +36,7 @@ seeMoreButtons.forEach((button) => {
   button.addEventListener('click', () => {
     carousel.classList.remove('next', 'prev');
     carousel.classList.add('showDetail');
+    // carousel.classList.remove('showDetail');
   });
 });
 
